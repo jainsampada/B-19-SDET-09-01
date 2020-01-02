@@ -1,0 +1,16 @@
+package ConditionalDemos;
+
+public class SwitchCaseDemo {
+int num1,num2,res;
+public void chooseChoice()
+{
+	System.out.print("1.Add\t2.Subtract\n3.Multiply\t4.Divide");
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SwitchCaseDemo oo=new SwitchCaseDemo();
+		oo.chooseChoice();
+	}
+
+}

@@ -1,0 +1,142 @@
+1. Change directory 
+
+cd d:
+cd subfolder
+cd \D:\gitdemo
+cd \your location for local repo
+-------------------
+git init
+
+for initializing local repo
+
+if not .git folder is displayed 
+
+win10/8:got to view>> check "hidden item"
+
+win7:organize>folder & search option>view tab>hidden files radio button>apply & close
+
+---------------------
+CREATE YOUR CODE
+
+git add filename.extention
+git add file1.extention file2.extention file3.extention
+
+
+git add --all
+
+THIS COMMAND TRACK ALL YOUR ADDED FILES
+
+------------------
+COMMIT YOUR TRACKED FILES
+
+git commit -m "MESSAGE"
+
+it will may ask for ur username & email so follow that instruction and then commit
+---------------------
+
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+NOTE: Make sure you commit again after these instructions
+
+
+----------------------
+INITILIZE YOUR GITHUB REPO URL 
+
+
+git remote add origin GITHUB REPO URL
+
+
+git remote add origin https://github.com/sampada/batch08-02.git
+
+----------------------------
+FOR DETAILS
+
+git config --list
+
+PRESS Q for next line
+
+----------------------------
+For PUSH
+
+git push -u origin master
+
+
+2.CLONE DIRECTORY
+
+git clone githubURL
+EX:
+git clone https://github.com/Shrutirishiraj/sam.git
+
+change to your repo folder
+
+
+3.Create a simple code/text file in local repository
+
+
+
+4.add created file to be tracked for commit
+
+git add filename.extension
+
+
+to add all the newly created files use
+
+git add --all
+
+
+
+5.commit files
+
+git commit -m "first"
+git remote add origin githubURL
+
+
+it will may ask for uer username & email so follow that instruction and then commit
+
+
+6.to list all the tracked files
+
+git ls-tree -r master --name-only
+
+
+7.push the file to global repository
+
+git push
+
+
+8.git config -- list
+
+
+
+
+Now check the diffrence between staged, tracked & untracked files
+
+#create any new file
+#update previously commited files
+#commit any file
+
+
+Now type "git status"
+it will display the details of ALL the files tracked, untracked and commited
+
+
+9.LogOut
+Go to: Control Panel -> User Accounts -> Manage your credentials -> Windows Credentials -> under Generic Credentials there are some credentials related to Github, click on them and click "Remove"
+
+Branch 
+
+To see all the branches
+
+git branch
+
+to create a branch
+
+git branch <branch name>
+
+to switch to new branch 
+
+git checkout <existing branch name>
+
+https://github.com/Shrutirishiraj/jenkinDemo.git

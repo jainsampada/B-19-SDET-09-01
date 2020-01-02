@@ -1,0 +1,5 @@
+package ExceptionHandlingdemo;
+
+public class InvalidAgeExcetion extends Throwable{
+
+}

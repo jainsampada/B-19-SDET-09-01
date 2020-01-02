@@ -1,0 +1,31 @@
+package OOPS;
+
+public class InstanceVariable {
+		//int num1;
+	static int num1;
+public void acc()
+{
+ 
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InstanceVariable oo=new InstanceVariable();
+		oo.num1=100;
+		oo.num1++
+		System.out.println(oo.num1);
+		
+		InstanceVariable obj=new InstanceVariable();
+		System.out.println(obj.num1);
+		
+		InstanceVariable ob=new InstanceVariable();
+		System.out.println(ob.num1);
+		
+//		InstanceVariable oo=new InstanceVariable();
+//		
+//		System.out.println(oo.num1);
+//		num1++;
+//		InstanceVariable obj=new InstanceVariable();
+//		System.out.println(obj.num1);
+	}
+
+}

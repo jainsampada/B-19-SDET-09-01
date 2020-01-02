@@ -1,0 +1,20 @@
+package OOPS;
+
+public class StaticBlockDemo {
+static int num1;
+static
+{
+	num1=100;
+	System.out.println(num1);
+}
+public void acc()
+{
+	System.out.println("hello");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticBlockDemo oo=new StaticBlockDemo();
+		oo.acc();
+	}
+
+}

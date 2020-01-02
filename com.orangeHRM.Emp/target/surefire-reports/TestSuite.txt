@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.988 s <<< FAILURE! - in TestSuite
+CheckTitle(com.btes.orangehrm.com.orangeHRM.Emp.LoginTest)  Time elapsed: 0.099 s  <<< FAILURE!
+java.lang.AssertionError: expected [OrangeHRM] but found [OrnageHRM]
+	at com.btes.orangehrm.com.orangeHRM.Emp.LoginTest.CheckTitle(LoginTest.java:13)
+

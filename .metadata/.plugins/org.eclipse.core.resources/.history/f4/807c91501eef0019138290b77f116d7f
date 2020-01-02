@@ -1,0 +1,21 @@
+package ConditionalDemos;
+import java.util.Scanner;
+
+public class SwitchCaseDemo {
+int num1,num2,res,choice;
+public void chooseChoice()
+{
+	System.out.println("1.Add\t\t2.Subtract\n3.Multiply\t4.Divide");
+	System.out.println("Enter your Choice");
+	Scanner sc=new Scanner(System.in);
+	choice=sc.nextInt();
+	
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SwitchCaseDemo oo=new SwitchCaseDemo();
+		oo.chooseChoice();
+	}
+
+}

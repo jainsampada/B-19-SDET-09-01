@@ -1,0 +1,8 @@
+package ExceptionHandlingdemo;
+
+public class InvalidAgeExcetion extends Throwable{
+public InvalidAgeExcetion()
+{
+	System.out.println("Age can not be greater then 18");
+}
+}

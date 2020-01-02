@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.btes.orangehrm.com.orangeHRM.Emp.LoginTest">
+        <methods>
+          <include name="Close_Browser"/>
+          <include name="CheckTitle"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- com.btes.orangehrm.com.orangeHRM.Emp.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

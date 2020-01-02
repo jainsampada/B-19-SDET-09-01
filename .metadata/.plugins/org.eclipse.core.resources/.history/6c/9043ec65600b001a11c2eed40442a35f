@@ -1,0 +1,22 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+public void accept()
+{
+	ArrayList al=new ArrayList();
+	al.add(123);
+	al.add("Manisha");
+	al.add("SDET");
+	al.add("RCH0190132");
+	System.out.println(al);
+	
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

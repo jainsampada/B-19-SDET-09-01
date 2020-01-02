@@ -1,0 +1,26 @@
+package OOPS;
+
+public class StudentDemo {
+private int rollno=1,contactno;
+private String name;
+public int getRollno() {
+	return rollno;
+}
+public void setRollno(int rollno) {
+	this.rollno = rollno;
+}
+public int getcontactno() {
+	return contactno;
+}
+public void setMarks(int contactno) {
+	this.contactno = contactno;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+
+
+}

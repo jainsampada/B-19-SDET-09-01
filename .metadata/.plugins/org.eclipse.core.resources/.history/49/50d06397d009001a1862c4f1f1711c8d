@@ -1,0 +1,25 @@
+package ExceptionHandlingdemo;
+
+import java.util.Scanner;
+
+public class ArithmeticDemo {
+int num1,num2,res;
+Scanner sc=new Scanner(System.in);
+public void division()
+{
+	System.out.println("Enter value for Num1");
+	num1=sc.nextInt();
+	
+	System.out.println("Enter value for num2");
+	num2=sc.nextInt();
+	
+	res=num1/num2;
+	System.out.println("Result is:"+res);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArithmeticDemo oo=new ArithmeticDemo();
+		oo.division();
+	}
+
+}
